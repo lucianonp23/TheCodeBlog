@@ -1,3 +1,49 @@
+
+# TheCodeBlog Project
+
+
+### `First, clone this  repo `
+
+```
+$ git clone <https://github.com/lucianonp23/TheCodeBlog.git>
+```
+### `Access project folder on terminal/cmd`
+
+```
+$ cd TheCodeBlog
+```
+### `Open it on VS Code`
+```
+$ code .
+```
+### `Open the terminal on vs code and install dependencies for the project`
+```
+$ npm install
+```
+### `Run the application on developer mode `
+```
+$ npm run start
+```
+ The application will start on port:3000 - access on <http://localhost:3000>
+
+# Using JSON_server as a fake API for the project
+The database used on this project it was done with [Json-server](https://www.npmjs.com/package/json-server).
+
+This is a way to create a fake REST API and the following procedures will be needed to run this website correctly:
+
+# Getting Started with JSON-server
+
+### `Install JSON Server `
+
+```
+npm install -g json-server
+```
+
+### `Start JSON Server`
+
+```bash
+ npx json-server --watch data/db.json --port 8000
+```
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
